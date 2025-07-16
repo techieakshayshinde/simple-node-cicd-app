@@ -9,8 +9,8 @@ on:
 jobs:
   build-and-test:
     runs-on: ubantu-latest
-
-    setps:
+    
+    steps:
       - name: Checkout code
         uses: actions/checkout@v3
     
