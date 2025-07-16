@@ -2,6 +2,7 @@ const express=require('express')
 const app=express()
 
 app.get('/',(req,res)=>{
+    console.log('CI/CD pipeline is working!...log added!')
     res.send('CI/CD pipeline is working!')
 })
 
